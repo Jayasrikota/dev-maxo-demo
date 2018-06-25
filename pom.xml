@@ -45,9 +45,9 @@
   
   <distributionManagement>
 	<repository>
-		<id>maven-releases</id>
+		<id>libs-release-local</id>
 		<name>Internal Releases</name>
-		<url>http://ec2-18-222-133-2.us-east-2.compute.amazonaws.com:8081/#browse/browse/components:maven-releases</url>
+		<url>http://ec2-18-216-178-11.us-east-2.compute.amazonaws.com:8081/artifactory/libs-release-local/</url>
 	</repository>
 
 </distributionManagement>
