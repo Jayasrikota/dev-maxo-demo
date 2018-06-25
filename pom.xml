@@ -45,9 +45,9 @@
   
   <distributionManagement>
 	<repository>
-		<id>deploymentRepo</id>
-		<name>Internal Releases</name>
-		<url>http://35.193.152.132:8081/repository/maven-releases/</url>
-	</repository>
+		<id>central</id>
+          <name>libs-release</name>
+          <url>http://ec2-18-216-178-11.us-east-2.compute.amazonaws.com:8081/artifactory/libs-release</url>
+        </repository>
   </distributionManagement>
 </project>
