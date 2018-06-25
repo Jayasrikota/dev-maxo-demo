@@ -59,15 +59,15 @@
   
   <distributionManagement>
 	<repository>
-		<id>deploymentRepo</id>
+		<id>maven-releases</id>
 		<name>Internal Releases</name>
-		<url>http://ec2-13-58-7-247.us-east-2.compute.amazonaws.com:8081/repository/maven-releases/</url>
+		<url>http://ec2-18-222-133-2.us-east-2.compute.amazonaws.com:8081/#browse/browse/components:maven-releases</url>
 	</repository>
  
 	<snapshotRepository>
-		<id>deploymentRepo</id>
+		<id>maven-snapshots</id>
 		<name>Internal Releases</name>
-		<url>http://ec2-13-58-7-247.us-east-2.compute.amazonaws.com:8081/repository/maven-snapshots/</url>
+		<url>http://ec2-18-222-133-2.us-east-2.compute.amazonaws.com:8081/#browse/browse/components:maven-snapshots</url>
 	</snapshotRepository>
 
 </distributionManagement>
