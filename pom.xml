@@ -1,3 +1,4 @@
+
 <project>
   <modelVersion>4.0.0</modelVersion>
   <groupId>com.maxo</groupId>
@@ -45,9 +46,17 @@
   
   <distributionManagement>
 	<repository>
-	 <id>central</id>
-         <name>libs-release</name>
-	 <url>http://35.193.152.132:8081/repository/maven-releases/</url>
-        </repository>
-  </distributionManagement>
+		<id>deploymentRepo</id>
+		<name>Internal Releases</name>
+		<url>http://35.193.152.132:8081/repository/maven-releases/</url>
+	</repository>
+ 
+	<snapshotRepository>
+		<id>deploymentRepo</id>
+		<name>Internal Releases</name>
+		<url>http://35.193.152.132:8081/repository/maven-snapshots/</url>
+	</snapshotRepository>
+
+</distributionManagement>
+  
 </project>
