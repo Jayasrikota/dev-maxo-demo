@@ -44,12 +44,11 @@
  </build>
   
   <distributionManagement>
-	<repository>
-		<id>libs-release-local</id>
-		<name>Internal Releases</name>
-		<url>http://ec2-18-216-178-11.us-east-2.compute.amazonaws.com:8081/artifactory/libs-release-local/</url>
-	</repository>
-
+    <repository>
+        <id>central</id>
+        <name>ip-172-31-44-106-releases</name>
+        <url>http://ec2-18-216-178-11.us-east-2.compute.amazonaws.com:8081/artifactory/libs-release-local</url>
+    </repository>
 </distributionManagement>
   
 </project>
