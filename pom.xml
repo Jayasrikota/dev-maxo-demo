@@ -40,35 +40,15 @@
         </execution>
       </executions>
     </plugin>
-	  <plugin>
-   <groupId>org.apache.maven.plugins</groupId>
-   <artifactId>maven-deploy-plugin</artifactId>
-   <version>2.8.1</version>
-   <executions>
-      <execution>
-         <id>default-deploy</id>
-         <phase>deploy</phase>
-         <goals>
-            <goal>deploy</goal>
-         </goals>
-      </execution>
-   </executions>
-</plugin>
   </plugins>
  </build>
   
   <distributionManagement>
 	<repository>
-		<id>maven-releases</id>
+		<id>deploymentRepo</id>
 		<name>Internal Releases</name>
 		<url>http://ec2-18-222-133-2.us-east-2.compute.amazonaws.com:8081/#browse/browse/components:maven-releases</url>
 	</repository>
- 
-	<snapshotRepository>
-		<id>maven-snapshots</id>
-		<name>Internal Releases</name>
-		<url>http://ec2-18-222-133-2.us-east-2.compute.amazonaws.com:8081/#browse/browse/components:maven-snapshots</url>
-	</snapshotRepository>
 
 </distributionManagement>
   
