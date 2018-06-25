@@ -45,8 +45,9 @@
   
   <distributionManagement>
 	<repository>
-		<id>central</id>
-          <name>libs-release</name>
+	 <id>central</id>
+         <name>libs-release</name>
+	 <url>http://35.193.152.132:8081/repository/maven-releases/</url>
         </repository>
   </distributionManagement>
 </project>
